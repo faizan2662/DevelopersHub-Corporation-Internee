@@ -1,0 +1,143 @@
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+ul.topnav li a.active {
+  background-color: lightseagreen;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+#intro {
+  font-size: x-large;
+  font-family: lucida console;
+  background-color: #333;
+  transition: box-shadow 0.1s ease;
+}
+
+#intro:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(202, 215, 219, 0.582);
+}
+
+i {
+  transition: box-shadow 0.1s ease;
+}
+
+i:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(21, 140, 250, 0.705);
+}
+
+img {
+  transition: box-shadow 0.1s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(202, 215, 219, 0.582);
+}
+
+.card {
+  transition: box-shadow 0.1s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(21, 140, 250, 0.705);
+}
+
+h2 {
+  color: lightseagreen;
+}
+
+h2:hover {
+  text-decoration: underline;
+}
